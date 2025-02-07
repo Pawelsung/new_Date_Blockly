@@ -1,0 +1,17 @@
+{
+    "blocks": [
+        {
+            "type": "get_time_ms",
+            "message0": "取得目前時間（毫秒）",
+            "output": "Number",
+            "colour": 230,
+            "tooltip": "取得當前的時間戳記（毫秒）",
+            "helpUrl": ""
+        }
+    ],
+    "generators": {
+        "javascript": {
+            "get_time_ms": "new Date().getTime();"
+        }
+    }
+}
